@@ -48,6 +48,15 @@
         ]
     },
     "extra": {
+        "laravel":{
++            "providers":[
++                "LucaDegasperi\\OAuth2Server\\Storage\\FluentStorageServiceProvider",
++                "LucaDegasperi\\OAuth2Server\\OAuth2ServerServiceProvider"
++            ],
++            "aliases":{
++                "Authorizer":"LucaDegasperi\\OAuth2Server\\Facades\\Authorizer"
++            }
++        },
         "branch-alias": {
             "dev-master": "5.2-dev"
         }
