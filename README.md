@@ -2,7 +2,7 @@
 
 ![oauth2-server-laravel](https://cloud.githubusercontent.com/assets/499192/9065550/751404ba-3ad2-11e5-9f92-3d4d5d4b9c54.png)
 
-> **Note:** This package is no longer maintaned for Laravel 5.3+ since Laravel now features the [Passport package](https://laravel.com/docs/passport).
+> **Note:** This package is a fork from lucadegasperi/oauth2-server-laravel. The original project only works upto laravel 5.4. This project works upto Laravel 5.5. For new projects, consider using the Laravel [Passport package](https://laravel.com/docs/passport).
 
 [OAuth 2.0](http://tools.ietf.org/wg/oauth/draft-ietf-oauth-v2/) authorization server and resource server for the Laravel and Lumen frameworks. Standard compliant thanks to the amazing work by [The League of Extraordinary Packages](http://www.thephpleague.com) OAuth 2.0 authorization server and resource server.
 
